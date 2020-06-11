@@ -42,4 +42,5 @@ Please look the details in `Readme.md` of each task inside `examples` folder.
 All the information of code, data, and pretrained models can be found there.
 
 ## Contact
-[PIAO TAIREN](piaotairen@snu.ac.kr)
+PIAO TAIREN
+E-mail: piaotairen@snu.ac.kr

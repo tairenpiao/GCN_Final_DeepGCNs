@@ -7,11 +7,10 @@ In gcn_lib, there are two folders: dense and sparse. They are used for different
 
 
 ### Train
-We keep using 2 Tesla V100 GPUs for distributed training. Run:
+I used 4 RTX 2080Ti for distributed training. Run:
 ```
-CUDA_VISIBLE_DEVICES=0,1 python train.py  --multi_gpus --phase train --train_path /data/deepgcn/S3DIS --batch_size 16
+CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py  --multi_gpus --phase train
 ```
-Note on `--train_path`: Make sure you have the folder. Just need to set `--train_path path/to/data`, dataset will be downloaded automatically. 
 
 If you want to train model with other gcn layers (for example mrgcn), run
 ```
@@ -35,8 +34,6 @@ python test.py --pretrained_model examples/sem_seg_dense/checkpoints/sem_seg_den
 #### Pretrained Models
 Our pretrained model is available here [google driver](https://drive.google.com/open?id=1iAJbHqiNwc4nJlP67sp1xLkl5EtC4PU_)
 
-Note: Please use our Tensorflow code if you want to reproduce the same result in the paper. 
-The performance of pytorch code is slightly worse than tensorflow. mIOU is 52.11% compared to 52.49% in the tensorflow version.
 ```
 python test.py --pretrained_model examples/sem_seg_dense/checkpoints/sem_seg_dense-res-edge-28-64-ckpt_best_model.pth  --batch_size 32  --test_path /data/deepgcn/S3DIS
 ```

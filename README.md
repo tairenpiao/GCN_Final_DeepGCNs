@@ -16,11 +16,12 @@ After that it would be deletede.
 ## Requirements
 * [Pytorch>=1.4.0](https://pytorch.org)
 * [pytorch_geometric>=1.3.0](https://pytorch-geometric.readthedocs.io/en/latest/)
-* [tensorflow graphics](https://github.com/tensorflow/graphics/blob/master/tensorflow_graphics/g3doc/install.md) only used for tensorboard visualization
+
+There are many package version requirements so please just install a new conda enviroment to run the code.
 
 Install enviroment by runing:
 ```
-source deepgcn_env_install.sh
+conda env create -f deepgcn.yml
 ```
 
 ## Code Architecture

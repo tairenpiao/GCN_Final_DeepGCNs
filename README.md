@@ -15,7 +15,6 @@ After that it would be deletede.
 
 ## Requirements
 * [Pytorch>=1.4.0](https://pytorch.org)
-* [pytorch_geometric>=1.3.0](https://pytorch-geometric.readthedocs.io/en/latest/)
 
 There are many package version requirements so please just install a new conda enviroment to run the code.
 

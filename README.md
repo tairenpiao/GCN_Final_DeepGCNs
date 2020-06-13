@@ -46,9 +46,13 @@ All the information of code, data, and pretrained models can be found there.
 ```
 cd example/sem_seg_dense/
 ```
-
+### For training from scratch
 ```
-CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py  --multi_gpus --phase test
+python train.py
+```
+### For quick test using pre-trained model
+```
+python test.py 
 ```
 
 ## Contact

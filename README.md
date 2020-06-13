@@ -1,12 +1,11 @@
 # PIAO_TAIREN_GCN_Final_DeepGCNs
-Course GCN final project
+Course GCN final project.
 
 This repository is highly borrowed from original paper's code.
 This repository is only for the final porject.
-After that it would be deleted.
-I fixed a part of code for running smoothly.
 
-the configuration of original code is complicated.
+I fixed large part of code for running without problem.
+The configuration of original code is complicated.
 
 ## DeepGCNs: Can GCNs Go as Deep as CNNs?
 * [Paper](https://arxiv.org/pdf/1904.03751.pdf)
@@ -33,7 +32,7 @@ source activate deepgcn
     │   ├── part_sem_seg        # code for part segmentation on PartNet
     └── ...
 
-## How to train, test and evaluate our models
+## How to train, test and evaluate the models
 # Important!!!
 Please look the details in `README.md` of each task inside `examples` folder.
 All the information of code, data, and pretrained models can be found there.

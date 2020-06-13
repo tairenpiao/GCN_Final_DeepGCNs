@@ -38,7 +38,7 @@ source activate deepgcn
 Please look the details in `README.md` of each task inside `examples` folder.
 All the information of code, data, and pretrained models can be found there.
 
-## For training from scratch
+### A simple example (training from scratch)
 First go in to the example directory
 ```
 cd example/sem_seg_dense/

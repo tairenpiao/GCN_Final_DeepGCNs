@@ -15,14 +15,14 @@ the configuration of original code is complicated.
 
 
 ## Requirements
-* [Pytorch>=1.4.0](https://pytorch.org)
-
 There are many package version requirements so please just install a new conda enviroment to run the code.
 
 Install enviroment by runing:
 ```
 conda env create -f deepgcn.yml
+source activate deepgcn
 ```
+
 
 ## Code Architecture
     .
@@ -43,6 +43,7 @@ Please look the details in `Readme.md` of each task inside `examples` folder.
 All the information of code, data, and pretrained models can be found there.
 
 ## For very quick test
+First go in to the example directory
 ```
 cd example/sem_seg_dense/
 ```
@@ -52,7 +53,7 @@ python train.py
 ```
 ### For quick test using pre-trained model
 ```
-python test.py 
+python test.py ./
 ```
 
 ## Contact

@@ -22,16 +22,16 @@ class OptInit:
         # base
         parser.add_argument('--phase', default='test', type=str, help='train or test(default)')
         parser.add_argument('--use_cpu', action='store_true', help='use cpu?')
-        parser.add_argument('--exp_name', type=str, default='sem_seg_sparse', help='prefix of saved file')
-        parser.add_argument('--root_dir', type=str, default='log', help='the dir of experiment results')
+        parser.add_argument('--exp_name', type=str, default='sem_seg_dense', help='prefix of saved file')
+        parser.add_argument('--root_dir', type=str, default='./log', help='the dir of experiment results')
 
         # dataset args
-        parser.add_argument('--data_dir', type=str, default='/data/deepgcn/S3DIS')
+        parser.add_argument('--data_dir', type=str, default='~/data/deepgcn/S3DIS')
         parser.add_argument('--batch_size', default=16, type=int, help='mini-batch size (default:16)')
         parser.add_argument('--in_channels', default=9, type=int, help='the channel size of input point cloud ')
 
         # train args
-        parser.add_argument('--total_epochs', default=100, type=int, help='number of total epochs to run')
+        parser.add_argument('--total_epochs', default=1, type=int, help='number of total epochs to run')
         parser.add_argument('--save_freq', default=1, type=int, help='save model per num of epochs')
         parser.add_argument('--iter', default=0, type=int, help='number of iteration to start')
         parser.add_argument('--lr_adjust_freq', default=20, type=int, help='decay lr after certain number of epoch')

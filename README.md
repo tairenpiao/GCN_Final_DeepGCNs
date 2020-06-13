@@ -1,16 +1,17 @@
 # PIAO_TAIREN_GCN_Final_DeepGCNs
- Course GCN final project
+Course GCN final project
 
 This repository is highly borrowed from original paper's code.
 This repository is only for the final porject.
-After that it would be deletede.
+After that it would be deleted.
+I fixed a part of code for running smoothly.
+
+the configuration of original code is complicated.
 
 ## DeepGCNs: Can GCNs Go as Deep as CNNs?
 * [Paper](https://arxiv.org/pdf/1904.03751.pdf)
 
-<div style="text-align:center"><img src='./misc/intro.png' width=800>
-
-<div style="text-align:center"><img src='./misc/pipeline.png' width=800>
+<div style="text-align:center"><img src='./images/pipeline.png' width=800>
 
 
 ## Requirements
@@ -25,7 +26,7 @@ conda env create -f deepgcn.yml
 
 ## Code Architecture
     .
-    ├── misc                    # Misc images
+    ├── images                  # Misc images
     ├── utils                   # Common useful modules
     ├── gcn_lib                 # gcn library
     │   ├── dense               # gcn library for dense data (B x C x N x 1)
@@ -40,6 +41,15 @@ conda env create -f deepgcn.yml
 ## How to train, test and evaluate our models
 Please look the details in `Readme.md` of each task inside `examples` folder.
 All the information of code, data, and pretrained models can be found there.
+
+## For very quick test
+```
+cd example/sem_seg_dense/
+```
+
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py  --multi_gpus --phase test
+```
 
 ## Contact
 PIAO TAIREN

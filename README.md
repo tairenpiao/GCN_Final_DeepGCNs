@@ -1,7 +1,7 @@
 # PIAO_TAIREN_GCN_Final_DeepGCNs
 Course GCN final project.
 
-This repository is partly borrowed from original paper's code.
+This repository is partly borrowed from original paper's code. 
 This repository is only for the final porject. <br/>
 I fixed large part of code for running without problem.
 The configuration of original code is complicated.

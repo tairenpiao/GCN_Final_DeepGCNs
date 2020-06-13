@@ -1,7 +1,7 @@
 # PIAO_TAIREN_GCN_Final_DeepGCNs
 Course GCN final project.
 
-This repository is highly borrowed from original paper's code.
+This repository is partly borrowed from original paper's code.
 This repository is only for the final porject.
 
 I fixed large part of code for running without problem.
@@ -33,16 +33,17 @@ source activate deepgcn
     └── ...
 
 ## How to train, test and evaluate the models
+
 # Important!!!
 Please look the details in `README.md` of each task inside `examples` folder.
 All the information of code, data, and pretrained models can be found there.
 
-# For very quick test
+## For training from scratch
 First go in to the example directory
 ```
 cd example/sem_seg_dense/
 ```
-## For training from scratch
+
 ```
 CUDA_VISIBEL_DIVICES=0,1,2,3 python train.py --multi_gpus --batch_size 16
 ```
@@ -51,4 +52,5 @@ Lower the batch size if out of memory. The batch size will not influence the tes
 
 ## Contact
 PIAO TAIREN
+
 E-mail: piaotairen@snu.ac.kr

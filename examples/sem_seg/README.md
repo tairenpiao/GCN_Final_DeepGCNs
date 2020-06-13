@@ -1,6 +1,6 @@
 ## Semantic segmentation of indoor scenes
 
-This is for semantic segementation task.
+This is for S3DIS semantic segementation task.
 
 
 ### Train
@@ -17,6 +17,8 @@ If you want to train model with other gcn layers (for example mrgcn), run
 python train.py --conv mr --multi_gpus --phase train
 ```
 
+If you want to change other cofigurations please make a .sh file or change the cofig.py.
+
 Other parameters for changing the architecture are:
 ```
     --block         graph backbone block type {res, plain, dense}
@@ -29,7 +31,7 @@ Other parameters for changing the architecture are:
 Qucik test on area 5, run:
 
 ```
-python test.py --pretrained_model ./checkpoints/sem_seg_dense-res-edge-28-64-ckpt_best_model.pth  --batch_size 32 
+python test.py --pretrained_model ./checkpoints/sem_seg_dense-res-edge-28-64-ckpt_best_model.pth --batch_size 32 
 ```
 
 #### Pretrained Models

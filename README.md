@@ -4,6 +4,7 @@ Course GCN final project.
 This repository is partly borrowed from original paper's code.
 This repository is only for the final porject.
 
+
 I fixed large part of code for running without problem.
 The configuration of original code is complicated.
 
@@ -51,6 +52,6 @@ Lower the batch size if out of memory. The batch size will not influence the tes
 
 
 ## Contact
-PIAO TAIREN
+PIAO TAIREN 
 
 E-mail: piaotairen@snu.ac.kr

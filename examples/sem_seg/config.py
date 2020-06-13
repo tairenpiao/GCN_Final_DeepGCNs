@@ -20,7 +20,7 @@ class OptInit:
         parser = argparse.ArgumentParser(description='PyTorch implementation of Deep GCN For semantic segmentation')
 
         # base
-        parser.add_argument('--phase', default='test', type=str, help='train or test(default)')
+        parser.add_argument('--phase', default='train', type=str, help='train or test(default)')
         parser.add_argument('--use_cpu', action='store_true', help='use cpu?')
         parser.add_argument('--exp_name', type=str, default='sem_seg_dense', help='prefix of saved file')
         parser.add_argument('--root_dir', type=str, default='./log', help='the dir of experiment results')

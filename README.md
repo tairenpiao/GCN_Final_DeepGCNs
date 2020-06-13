@@ -47,10 +47,8 @@ cd example/sem_seg_dense/
 ```
 CUDA_VISIBEL_DIVICES=0,1,2,3 python train.py --multi_gpus --batch_size 16
 ```
-## For quick test using pre-trained model
-```
-python test.py ./
-```
+Lower the batch size if out of memory. The batch size will not influence the test results.
+
 
 ## Contact
 PIAO TAIREN

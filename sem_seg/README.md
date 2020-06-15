@@ -1,6 +1,6 @@
 ## Semantic segmentation of indoor scenes
 
-This is for S3DIS semantic segementation task.
+Running S3DIS semantic segementation task.
 
 
 ### Train
@@ -18,7 +18,6 @@ python train.py --conv mr --multi_gpus --phase train
 ```
 
 If you want to change other cofigurations please make a .sh file or change the cofig.py.
-
 Other parameters for changing the architecture are:
 ```
     --block         graph backbone block type {res, plain, dense}
@@ -26,7 +25,7 @@ Other parameters for changing the architecture are:
     --n_filters     number of channels of deep features, default is 64
     --n_blocks      number of basic blocks, default is 28
 ```
-
+See 'config.py' for more details.
 ### Evaluation
 Qucik test on area 5, run:
 

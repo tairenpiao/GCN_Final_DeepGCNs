@@ -13,7 +13,7 @@ I fixed large part of code for running without problem.
 
 
 ## Requirements
-There are many package version requirements, so please just install a new conda enviroment to run the code.
+There are many package version requirements, so please install a new conda enviroment to run the code.
 
 Install enviroment by runing:
 ```
@@ -26,15 +26,13 @@ source activate deepgcn
     ├── images                  # images
     ├── utils                   # common useful modules
     ├── gcn_lib                 # gcn library
-    ├── examples 
-    │   ├── sem_seg_dense       # code for point clouds semantic segmentation on S3DIS (data type: dense)
-    │   ├── part_sem_seg        # code for part segmentation on PartNet
+    ├── sem_seg                 # code for point clouds semantic segmentation on S3DIS 
     └── ...
 
 ## How to train, test and evaluate the models
 
 # Important!!!
-Please look the details in `README.md` of each task inside `examples` folder.
+Please look the details in `README.md` of `sem_seg` folder.
 All the information of code, data, and pretrained models can be found there.
 
 ### A simple example (training from scratch)

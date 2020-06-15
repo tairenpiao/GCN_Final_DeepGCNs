@@ -1,10 +1,10 @@
 # PIAO_TAIREN_GCN_Final_DeepGCNs
 Course GCN final project.
 
-This repository is partly borrowed from original paper's code. 
+This repository is partly borrowed from original paper's code. <br/ >
+
 This repository is only for the final porject. <br/>
 I fixed large part of code for running without problem.
-The configuration of original code is complicated.
 
 ## DeepGCNs: Can GCNs Go as Deep as CNNs?
 * [Paper](https://arxiv.org/pdf/1904.03751.pdf)
@@ -13,7 +13,7 @@ The configuration of original code is complicated.
 
 
 ## Requirements
-There are many package version requirements so please just install a new conda enviroment to run the code.
+There are many package version requirements, so please just install a new conda enviroment to run the code.
 
 Install enviroment by runing:
 ```
@@ -38,7 +38,7 @@ Please look the details in `README.md` of each task inside `examples` folder.
 All the information of code, data, and pretrained models can be found there.
 
 ### A simple example (training from scratch)
-First go in to the example directory
+First enter the example directory
 ```
 cd example/sem_seg_dense/
 ```

@@ -25,7 +25,7 @@ source activate deepgcn
     .
     ├── images                  # images
     ├── utils                   # common useful modules
-    ├── gcn_lib                 # gcn library
+    ├── gcn_impl                # gcn library
     ├── sem_seg                 # code for point clouds semantic segmentation on S3DIS 
     └── ...
 

@@ -38,7 +38,7 @@ All the information of code, data, and pretrained models can be found there.
 ### A simple example (training from scratch)
 First enter the example directory
 ```
-cd example/sem_seg_dense/
+cd sem_seg/
 ```
 
 ```

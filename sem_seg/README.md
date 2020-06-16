@@ -30,8 +30,9 @@ See 'config.py' for more details.
 Qucik test on area 5, run:
 
 ```
-python test.py --pretrained_model ./checkpoints/sem_seg_dense-res-edge-28-64-ckpt_best_model.pth --batch_size 32 
+python test.py --batch_size 16
 ```
+Lower the batch size if out of memory. The batch size will not influence the test results.
 
 #### Pretrained Models
 Pretrained model is available here [google driver](https://drive.google.com/open?id=1iAJbHqiNwc4nJlP67sp1xLkl5EtC4PU_)

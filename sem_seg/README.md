@@ -14,8 +14,9 @@ Lower the batch size if out of memory. The batch size will not influence the tes
 
 If you want to train model with other gcn layers (for example mrgcn), run
 ```
-python train.py --conv mr --multi_gpus --phase train
+CUDA_VISIBLE_DEVICES=0,1,2,3 python train.py --conv mr --multi_gpus --phase train --batch_size 32
 ```
+Lower the batch size if out of memory. The batch size will not influence the test results.
 
 If you want to change other cofigurations please make a .sh file or change the cofig.py.
 Other parameters for changing the architecture are:

@@ -1,7 +1,7 @@
 # PIAO_TAIREN_GCN_Final_DeepGCNs
 Course GCN final project.
 
-This repository is partly borrowed from original paper's code. <br/ >
+This repository is partly borrowed from original paper's code. 
 
 This repository is only for the final porject. <br/>
 I fixed large part of code for running without problem.
@@ -9,7 +9,7 @@ I fixed large part of code for running without problem.
 ## DeepGCNs: Can GCNs Go as Deep as CNNs?
 * [Paper](https://arxiv.org/pdf/1904.03751.pdf)
 
-<div style="text-align:center"><img src='./images/pipeline.png' width=800>
+<div style="text-align:center"><img src='./images/deepgcns.png' width=800>
 
 
 ## Requirements
@@ -32,7 +32,7 @@ source activate deepgcn
 ## How to train, test and evaluate the models
 
 # Important!!!
-Please look the details in `README.md` of `sem_seg` folder.
+Please look the details in `README.md` of `sem_seg` folder.<br/>
 All the information of code, data, and pretrained models can be found there.
 
 ### A simple example (training from scratch)
@@ -42,7 +42,7 @@ cd example/sem_seg_dense/
 ```
 
 ```
-CUDA_VISIBEL_DIVICES=0,1,2,3 python train.py --multi_gpus --batch_size 16
+CUDA_VISIBEL_DIVICES=0,1,2,3 python train.py --phase train --multi_gpus --batch_size 8
 ```
 Lower the batch size if out of memory. The batch size will not influence the test results.
 

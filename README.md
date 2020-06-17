@@ -4,7 +4,7 @@ Course GCN final project.
 This repository is partly borrowed from original paper's code. 
 
 This repository is only for the final porject. <br/>
-I fixed large part of code for running without problem.
+I fixed part of code for running without problem.
 
 ## DeepGCNs: Can GCNs Go as Deep as CNNs?
 * [Paper](https://arxiv.org/pdf/1904.03751.pdf)

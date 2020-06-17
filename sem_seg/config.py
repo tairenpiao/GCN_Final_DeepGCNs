@@ -31,7 +31,7 @@ class OptInit:
         parser.add_argument('--in_channels', default=9, type=int, help='the channel size of input point cloud ')
 
         # train args
-        parser.add_argument('--total_epochs', default=5, type=int, help='number of total epochs to run')
+        parser.add_argument('--total_epochs', default=1, type=int, help='number of total epochs to run')
         parser.add_argument('--save_freq', default=1, type=int, help='save model per num of epochs')
         parser.add_argument('--iter', default=0, type=int, help='number of iteration to start')
         parser.add_argument('--lr_adjust_freq', default=20, type=int, help='decay lr after certain number of epoch')

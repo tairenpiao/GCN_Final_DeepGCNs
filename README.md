@@ -48,6 +48,6 @@ Lower the batch size if out of memory. The batch size will not influence the tes
 
 
 ## Contact
-PIAO TAIREN 
+Tairen Piao
 
 E-mail: piaotairen@snu.ac.kr

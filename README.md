@@ -1,5 +1,5 @@
 # PIAO_TAIREN_GCN_Final_DeepGCNs
-Course GCN final project.
+Final project of the course GCN .
 
 This repository is partly borrowed from original paper's code. 
 
@@ -32,7 +32,7 @@ source activate deepgcn
 ## How to train, test and evaluate the models
 
 # Important!!!
-Please look the details in `README.md` of `sem_seg` folder.<br/>
+Please look the details in `README.md` in `sem_seg` folder.<br/>
 All the information of code, data, and pretrained models can be found there.
 
 ### A simple example (training from scratch)

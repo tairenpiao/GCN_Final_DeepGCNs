@@ -1,10 +1,8 @@
-# PIAO_TAIREN_GCN_Final_DeepGCNs
-Final project of the course GCN .
-
-This repository is partly borrowed from original paper's code. 
-
+# GCN_Final_DeepGCNs
+Final project of the course Graph Convolutional Networks. </br> 
+This repository is partly borrowed from original paper's code, and I fixed part of code for running without problem. <br/>
 This repository is only for the final porject. <br/>
-I fixed part of code for running without problem.
+
 
 ## DeepGCNs: Can GCNs Go as Deep as CNNs?
 * [Paper](https://arxiv.org/pdf/1904.03751.pdf)
@@ -15,10 +13,10 @@ I fixed part of code for running without problem.
 ## Requirements
 There are many package version requirements, so please install a new conda enviroment to run the code.
 
-Install enviroment by runing:
+Install the conda enviroment by running:
 ```
 conda env create -f deepgcn.yml
-source activate deepgcn
+conda activate deepgcn
 ```
 
 ## Code Architecture
@@ -29,18 +27,17 @@ source activate deepgcn
     ├── sem_seg                 # code for point clouds semantic segmentation on S3DIS 
     └── ...
 
-## How to train, test and evaluate the models
+## How to train, test and evaluate the models (important!)
 
-# Important!!!
 Please look the details in `README.md` in `sem_seg` folder.<br/>
-All the information of code, data, and pretrained models can be found there.
+All the information of the code, data, and pretrained models can be found there.
 
 ### A simple example (training from scratch)
-First enter the example directory
+First enter the example directory,
 ```
 cd sem_seg/
 ```
-
+and then run:
 ```
 CUDA_VISIBEL_DIVICES=0,1,2,3 python train.py --phase train --multi_gpus --batch_size 8
 ```
